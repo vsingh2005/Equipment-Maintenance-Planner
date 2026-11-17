@@ -1,0 +1,25 @@
+{
+  "name": "assets",
+  "fields": {
+    "name": {
+      "type": "TEXT",
+      "required": true
+    },
+    "location": {
+      "type": "TEXT",
+      "required": true
+    },
+    "status": {
+      "type": "TEXT",
+      "required": true,
+      "choices": [
+        "operating",
+        "maintenance",
+        "retired"
+      ]
+    }
+  },
+  "operations": [
+    "crud"
+  ]
+}
